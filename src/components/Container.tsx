@@ -59,7 +59,8 @@ export default function () {
 
     const setCurrentIdWrapper = (callback) => {
         setCurrentId(callback);
-        toggleState('pause', true);
+        //this was commented because the story wasn't playind automatically
+        // toggleState('pause', true);
     }
 
     const previous = () => {
